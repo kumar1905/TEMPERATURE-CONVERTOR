@@ -1,0 +1,69 @@
+h1 {
+    position: absolute;
+    top: 20px;
+    margin-bottom: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.webp'); 
+    background-size: cover;
+    background-position: center;
+    color: rgb(18, 17, 17);
+    font-family: 'Arial', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: bold;
+}
+
+#temperatureCard {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    background-image: url(bg.webp);/* Add a semi-transparent white background for the card */
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#temperatureCard h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#temperatureCard label {
+    margin-bottom: 8px;
+}
+
+#temperatureCard input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+#temperatureCard button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#temperatureCard button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 15px;
+}
